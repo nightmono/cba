@@ -1,8 +1,8 @@
 @import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/prodigy-sans.min.css");
 
 :root {
-    --page-width: 600px;
-    --card-width: 200px;
+    --page-width: 900px;
+    --aside-width: 300px;
     --fg: #000000;
     --primary: #cd5c5c;
     --bg: #f8f3ef;
@@ -128,7 +128,7 @@ section {
 }
 
 section aside {
-    max-width: var(--card-width);
+    width: var(--aside-width);
 }
 
 button {
